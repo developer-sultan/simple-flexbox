@@ -1,15 +1,39 @@
 
-.flex_container{
+body{
+    font-family: 'Noto Sans';
+}
+.flexbox{
     width: 50rem;
     padding: 0.5rem;
     border: 0.7rem solid #FDDA00;
     border-radius: 0.3rem;
 }
+.flexbox > h2 {
+    margin: 0 0 1rem 0;
+    font-size: 2.5rem;
+    color: #FFA302;
+}
+.flex_container{
+    display: flex;
+}
 .item{
     font-weight: 600;
     font-size: 2.5rem;
-    font-family: 'Noto Sans';
     width: 12rem;
-    background-color: red;;
+    background-color: red;
+    color: #fff;
+    padding: 0.5rem;
+    border-radius: 0.2rem;
 }
-
+.item_1{
+    background-color: #FF4302;
+}
+.item_2{
+    background-color: #9BCE0B;
+}
+.item_3{
+    background-color: #3E80B5;
+}
+.item_4{
+    background-color: #FFA302;
+}
