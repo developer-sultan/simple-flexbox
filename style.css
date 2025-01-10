@@ -7,6 +7,8 @@ body{
     padding: 0.5rem;
     border: 0.7rem solid #FDDA00;
     border-radius: 0.3rem;
+    height: 40vh;
+    text-align: center;
 }
 .flexbox > h2 {
     margin: 0 0 1rem 0;
@@ -15,11 +17,13 @@ body{
 }
 .flex_container{
     display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 .item{
     font-weight: 600;
     font-size: 2.5rem;
-    width: 12rem;
     background-color: red;
     color: #fff;
     padding: 0.5rem;
@@ -27,13 +31,19 @@ body{
 }
 .item_1{
     background-color: #FF4302;
+    flex-basis: 275px;
+
 }
 .item_2{
     background-color: #9BCE0B;
+    flex-basis: 400px;
 }
 .item_3{
     background-color: #3E80B5;
+    flex-basis: 275px;
 }
 .item_4{
     background-color: #FFA302;
+    flex-basis: 275px;
 }
+
